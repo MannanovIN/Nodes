@@ -11,6 +11,7 @@ echo 'export ALCHEMY='$ALCHEMY >> $HOME/.bash_profile
 wget -O starknet.sh https://raw.githubusercontent.com/MannanovIN/Nodes/main/StarkNet/starknet.sh && chmod +x starknet.sh && ./starknet.sh
 ```
 
+
 **#Обновление(сразу после установки не нужно выполнять)**
 ```
 curl -s https://raw.githubusercontent.com/MannanovIN/Nodes/main/StarkNet/update_starknet.sh | bash
